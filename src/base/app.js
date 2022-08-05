@@ -7,7 +7,7 @@ const { REST } = require('@discordjs/rest');
 const { Collection } = require("discord.js");
 const { Routes } = require('discord-api-types/v9');
 const eventsPath = path.join(__dirname, "../events");
-const { botid , token } = require("../Config/settings.json");
+const conf = require("../Config/settings.json");
 const commandsPath = path.join(__dirname, "../commands");
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const eventFiles = fs.readdirSync(eventsPath).filter((file) => file.endsWith(".js"));
@@ -68,7 +68,7 @@ module.exports = (client) => {
     }
 };
 
-const rest = new REST({ version: '9' }).setToken(token);
+const rest = new REST({ version: '9' }).setToken(conf.token);
 
 setTimeout(async () => {
   rest.put(Routes.applicationCommands(botid), { body: commands }).catch(console.error);
