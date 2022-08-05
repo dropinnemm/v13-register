@@ -8,7 +8,7 @@ const { token } = require("./src/base/settings.json");
 const messageCreate = require("./src/events/messageCreate");
 require("./src/base/app.js")(client)
 
-client.login(token);
+client.login(conf.token);
 
 
 Array.prototype.random = function () {return this[Math.floor((Math.random()*this.length))]};
