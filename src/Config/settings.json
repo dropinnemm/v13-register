@@ -1,0 +1,36 @@
+{
+"prefix": "",
+"botid": "",
+"token": "",
+"guildID": "",
+"mongoUrl": "",
+"BotDurum": ["DROPİNNEM ❤️ '1910","DROPİNNEM ❤️ Register"],
+"BotSesKanal":"",
+
+
+//rollerin idleri kullanıcı id girerseniz çalışmayacaktır
+"kayıtsızRolleri": [
+    ""
+    ],
+"erkekRolleri": [
+"",
+""
+],
+"kizRolleri":[
+    "",
+    ""
+],
+
+
+"Staff": [
+"",
+""
+],
+"RegisterYt": [
+    ""
+    ],
+
+"BanYt": [
+    ""
+    ]
+}
