@@ -6,7 +6,7 @@ module.exports = {
   async execute(message, client) {
     if (message.author.bot) return;
     if (!message.content.startsWith(conf.prefix)) return;
-    let command = message.content.split(" ")[0].slice(prefix.length);
+    let command = message.content.split(" ")[0].slice(conf.prefix.length);
     let args = message.content.split(" ").slice(1);
     let cmd = client.commands.get(command)
     if (!cmd) return;
