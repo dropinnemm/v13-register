@@ -1,0 +1,38 @@
+{
+"prefix": ".",
+"botid": "",
+"token": "",
+
+"desteksunucusu":"",
+"kurucu":[""],
+
+"mongoUrl": "",
+"BotDurum": ["Kân ❤️ '1910","Kân ❤️ Register"],
+"BotSesKanal":"",
+"kayıtsızRolleri": [""],
+"erkekRolleri": [
+"",
+""
+],
+"kizRolleri":[
+    "",
+    ""
+],
+
+"Owners": [
+    "",
+    ""
+    ],
+
+"Staff": [
+"",
+""
+],
+"RegisterYt": [
+    ""
+    ],
+
+"BanYt": [
+    ""
+    ]
+}
