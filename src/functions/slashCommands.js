@@ -13,7 +13,7 @@ const slash = {
             try {
                 console.log(chalk.blue('[BOT] ' + guild.name + ' sunucusuna Slash ve Komutlar yükleniyor.'));
                 await rest.put(
-                    Routes.applicationGuildCommands("1005632120162623579", guild.id),
+                    Routes.applicationGuildCommands(settings.botid, guild.id),
                     { body: commands },
                 ).then(() => {
                     console.log(chalk.green('[BOT] ' + guild.name + ' sunucusuna Slash ve Context Komutlar yüklendi.'));
