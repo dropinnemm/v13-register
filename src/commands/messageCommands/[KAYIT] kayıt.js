@@ -202,6 +202,7 @@ return
             await uye.roles.add(conf.erkekRolleri)
             await uye.roles.remove(conf.kizRolleri[1])
             await uye.roles.remove(conf.cezalıRolleri)
+          await uye.roles.remove(conf.kayıtsızRolleri)
             interaction.reply({ embeds: [ embed ], ephemeral: true });
          
             msg.edit({ embeds: [embed2], components: [row2]})
@@ -240,6 +241,7 @@ return
              await uye.roles.add(conf.kizRolleri)
              await uye.roles.remove(conf.erkekRolleri[1])
              await uye.roles.remove(conf.cezalıRolleri)
+           await uye.roles.remove(conf.kayıtsızRolleri)
 
              interaction.reply({ embeds: [ embed ], ephemeral: true });
  
